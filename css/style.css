@@ -1745,6 +1745,7 @@ submit
 
 .text-upper {
     text-transform: uppercase;
+    color: #333333;
 }
 
 .text-lead {
@@ -4891,6 +4892,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section {
     margin-bottom: 2.188em;
+    color: #333333;
 }
 
 .section.brd-btm {
