@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2769753 */
+  src: url('iconfont.woff2?t=1629958621164') format('woff2'),
+       url('iconfont.woff?t=1629958621164') format('woff'),
+       url('iconfont.ttf?t=1629958621164') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  /* font-size: 16px; */
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wode:before {
+  content: "\e606";
+}
+
+.icon-blog:before {
+  content: "\e656";
+}
+
+.icon-tubiao-:before {
+  content: "\e61b";
+}
+
+.icon-gongzuo:before {
+  content: "\e657";
+}
+
+.icon-zuopin:before {
+  content: "\e630";
+}
+
+.icon-image:before {
+  content: "\e7de";
+}
+
+.icon-mail:before {
+  content: "\e7df";
+}
+
+.icon-man:before {
+  content: "\e7e2";
+}
+
+.icon-phone:before {
+  content: "\e7e3";
+}
+
+.icon-share:before {
+  content: "\e7e7";
+}
+
+.icon-right:before {
+  content: "\e7eb";
+}
+
+.icon-left:before {
+  content: "\e7ec";
+}
+
+.icon-up:before {
+  content: "\e7ed";
+}
+
+.icon-down:before {
+  content: "\e7ee";
+}
+
+.icon-align-center:before {
+  content: "\e7f5";
+}
+
+.icon-check:before {
+  content: "\e7fc";
+}
+
+.icon-close:before {
+  content: "\e7fd";
+}
+
+.icon-phone-fill:before {
+  content: "\e86d";
+}
+
+.icon-mail-fill:before {
+  content: "\e86f";
+}
+
+.icon-setting-fill:before {
+  content: "\e871";
+}
+
+.icon-alipay:before {
+  content: "\e87c";
+}
+
+.icon-taobao:before {
+  content: "\e87d";
+}
+
+.icon-android-fill:before {
+  content: "\e881";
+}
+
+.icon-QQ:before {
+  content: "\e882";
+}
+
+.icon-weibo:before {
+  content: "\e883";
+}
+
+.icon-wechat-fill:before {
+  content: "\e884";
+}
+
+.icon-alipay-circle-fill:before {
+  content: "\e885";
+}
+
+.icon-github-fill:before {
+  content: "\e886";
+}
+
+.icon-QQ-circle-fill:before {
+  content: "\e887";
+}
+
+.icon-taobao-circle-fill:before {
+  content: "\e88a";
+}
+
+.icon-weibo-circle-fill:before {
+  content: "\e88b";
+}
+
+.icon-zhihu-circle-fill:before {
+  content: "\e88c";
+}
+
+.icon-alipay-square-fill:before {
+  content: "\e88d";
+}
+
+.icon-QQ-square-fill:before {
+  content: "\e890";
+}
+
+.icon-taobao-square-fill:before {
+  content: "\e892";
+}
+
+.icon-weibo-square-fill:before {
+  content: "\e893";
+}
+

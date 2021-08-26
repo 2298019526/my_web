@@ -15,8 +15,6 @@ body {
     font-size: 16px;
     line-height: 1.4em;
     letter-spacing: 0.08em;
-    padding: 0;
-    margin: 0;
 }
 
 article,
@@ -47,6 +45,8 @@ textarea {
 *:before,
 *:after {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 :focus {
@@ -2668,6 +2668,7 @@ img.aligncenter {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 45px;
+    color: #333333;
 }
 
 /* Search */
@@ -4771,7 +4772,6 @@ blockquote.quote-side:before,
 .ace-paper-stock:after {
     background-color: #fff;
 }
-
 /**
  * Theme Font Families
  */
@@ -4885,8 +4885,10 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #ace-card {
-        float: left;
         width: 288px;
+        position: fixed;
+        left: 0;
+        top: 90px;
     }
 }
 
@@ -4952,10 +4954,6 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Header
  */
-#ace-header {
-    position: relative;
-}
-
 .ace-head-inner {
     padding-top: 20px;
     padding-bottom: 20px;
