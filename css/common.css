@@ -119,6 +119,7 @@ h6, .h6 {
     width: var(--main-width);
     position: fixed;
     top: 0;
+    z-index: 9999;
 }
 .page-header .header-container{
     display: flex;
@@ -151,7 +152,7 @@ h6, .h6 {
     display: inline-block;
     font-size: 1.133em;
     font-weight: 700;
-    color: #6f6f6f;
+    color: #999999;
 }
 .page-header .header-container .header-row .header-col-right .header-nav .nav-list li:first-child{
     margin-left: 0;
@@ -403,8 +404,15 @@ h6, .h6 {
 .main-content .main-container .main .main-box .main-box-content{
     
 }
+
 /* 主体内容 */
 
+/* 页脚 */
+.footer{
+    padding: 30px 0px;
+    text-align: center;
+}
+/* 页脚 */
 
 /* 页面背景 */
 #ace-bg-shape-1,

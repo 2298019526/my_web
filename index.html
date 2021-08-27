@@ -9,6 +9,8 @@
 
         <!-- Styles -->
         <link href="./css/common.css" rel="stylesheet">
+        <link href="./css/common-mobile.css" rel="stylesheet">
+        <link href="./css/index.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
@@ -34,9 +36,9 @@
                                 </ul>
                             </nav>
 
-                            <button class="btn-icon">
+                            <!-- <button class="btn-icon">
                                 <i class="iconfont icon-align-center"></i>
-                            </button>
+                            </button> -->
                         </div>
                     </div>
                 </div>
@@ -100,6 +102,54 @@
                         <div class="main">
                             <div class="main-box">
                                 <div class="main-box-content">
+                                    <!-- 个人信息 -->
+                                    <section class="section">
+                                        <h2 class="h2">个人信息</h2>
+
+                                        <div class="user-info">
+                                            <div class="info-line">
+                                                <div class="info-title">姓名</div>
+                                                <div class="info-text">饶文静</div>
+                                            </div>
+                                            
+                                            <div class="info-line">
+                                                <div class="info-title">性别</div>
+                                                <div class="info-text">男</div>
+                                            </div>
+
+                                            <div class="info-line">
+                                                <div class="info-title">工作经验</div>
+                                                <div class="info-text">3年</div>
+                                            </div>
+
+                                            <div class="info-line">
+                                                <div class="info-title">年龄</div>
+                                                <div class="info-text">24</div>
+                                            </div>
+
+                                            <div class="info-line">
+                                                <div class="info-title">地址</div>
+                                                <div class="info-text">重庆市九龙坡区石桥铺</div>
+                                            </div>
+
+                                            <div class="info-line">
+                                                <div class="info-title">邮箱</div>
+                                                <div class="info-text"><a href="mailto:2298019526@qq.com">2298019526@qq.com</a></div>
+                                            </div>
+
+                                            <div class="info-line">
+                                                <div class="info-title">电话</div>
+                                                <div class="info-text">18290261572</div>
+                                            </div>
+                                            
+                                        </div>
+                                    </section>
+
+                                    <!-- 技能以及熟练度 -->
+                                    <section class="section">
+                                        <h2 class="h2">技能以及熟练度</h2>
+                                        <div id="indexSkill" class="chart"></div>
+                                    </section>
 
                                 </div>
                             </div>
@@ -107,101 +157,26 @@
                     </div>
                 </div>
                 <!-- 主体内容 -->
-
-                <!-- 右侧滑出的菜单栏 -->
-                <div id="ace-sidebar">
-                    <div class="sidebar-mask"></div>
-                    <div class="sidebar-main">
-                        <button id="ace-sidebar-close" class="btn btn-icon btn-light btn-shade">
-                            <span class="ace-icon ace-icon-close"></span>
-                        </button>
-                
-                        <div id="ace-sidebar-inner">
-                            <!-- #ace-card -->
-                            <article class="ace-card bg-primary">
-                                <div class="ace-card-inner text-center">
-                                    <img class="avatar avatar-195" src="img/uploads/avatar/avatar.png" width="195" height="195" alt="">
-                                    <h1>饶文静</h1>
-                                    <p class="text-muted">程序员 | 前端工程师</p>
-                                    <ul class="ace-social clear-list">
-                                        <li><a><span class="ace-icon ace-icon-wechat"></span></a></li>
-                                        <li><a><span class="ace-icon ace-icon-qq"></span></a></li>
-                                        <li><a><span class="ace-icon ace-icon-phone"></span></a></li>
-                                        <li><a><span class="ace-icon ace-icon-envelope"></span></a></li>
-                                        <li><a><span class="ace-icon ace-icon-weibo"></span></a></li>
-                                    </ul>
-                                </div>				
-                            </article>
-                            <!-- #ace-card -->
-                
-                            <aside class="widget-area">
-                                <section class="widget widget_posts_entries">
-                                    <h2 class="widget-title">热门帖子</h2>
-                                    <ul>
-                                        <li>
-                                            <a class="post-image" href="">
-                                                <img src="http://noemi.px-lab.com/wp-content/uploads/2016/05/tttt-70x70.png" alt="">
-                                            </a>
-                                            <div class="post-content">
-                                                <h3>
-                                                    <a href="">contextual advertising</a>
-                                                </h3>
-                                            </div>
-                                            <div class="post-category-comment">
-                                                <a href="" class="post-category">Work</a>
-                                                <a href="" class="post-comments">256 comments</a>
-                                            </div>
-                                        </li>
-                
-                                        <li>
-                                            <a class="post-image" href="">
-                                                <img src="http://noemi.px-lab.com/wp-content/uploads/2016/05/IMG_8945-1-70x70.jpg" alt="">
-                                            </a>
-                                            <div class="post-content">
-                                                <h3>
-                                                    <a href="">grilling tips for the dog days of summer</a>
-                                                </h3>
-                                            </div>
-                                            <div class="post-category-comment">
-                                                <a href="" class="post-category">Work</a>
-                                                <a href="" class="post-comments">256 comments</a>
-                                            </div>
-                                        </li>
-                
-                                        <li>
-                                            <a class="post-image" href="">
-                                                <img src="http://noemi.px-lab.com/wp-content/uploads/2016/05/15-70x70.png" alt="">
-                                            </a>
-                                            <div class="post-content">
-                                                <h3><a href=""></a>branding do you know who are</h3>
-                                            </div>
-                                            <div class="post-category-comment">
-                                                <a href="" class="post-category">Work</a>
-                                                <a href="" class="post-comments">256 comments</a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </section>
-                
-                            </aside>
-                        </div>
-                    </div>
-                </div>
-                <!-- 右侧滑出的菜单栏 -->
-            
             </main>
 
+            <!-- 页脚 -->
+            <footer class="footer">
+                <p class="footer-text">饶文静的个人网站</p>	
+            </footer>
+            <!-- 页脚 -->
 
-            
             <!-- 页面背景 -->
-            <svg id="ace-bg-shape-1" class="hidden-sm hidden-xs" height="519" width="758">
+            <svg id="ace-bg-shape-1" class="page-left-bg" height="519" width="758">
                 <polygon points="0,455,693,352,173,0,92,0,0,71" style="fill:#d2d2d2;stroke:purple;stroke-width:0; opacity: 0.5">
             </svg>
 
-            <svg id="ace-bg-shape-2" class="hidden-sm hidden-xs" height="536" width="633">
+            <svg id="ace-bg-shape-2" class="page-right-bg" height="536" width="633">
                 <polygon points="0,0,633,0,633,536" style="fill:var(--theme);stroke:purple;stroke-width:0" />
             </svg>
             <!-- 页面背景 -->
         </div>
+
+
+        <script src="./js/echarts.min.js"></script>
     </body>
 </html>

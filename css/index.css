@@ -1,0 +1,35 @@
+.main-box-content{
+    padding: 30px 25px;
+}
+.section{
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 30px;
+}
+.section .h2{
+    color: #757575;
+}
+.section .user-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section .user-info .info-line{
+    width: 50%;
+    flex-shrink: 0;
+    margin-top: 10px;
+    display: flex;
+    font-size: 14px;
+}
+.section .user-info .info-line .info-title{
+    text-transform: uppercase;
+    width: 80px;
+    font-weight: bold;
+}
+
+.section .chart{
+    width: 100%;
+    height: 400px;
+}
